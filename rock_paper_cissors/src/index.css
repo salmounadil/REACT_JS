@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'tientien';
+    src: url("./font/Anton-Regular.ttf");
+}
+
+body{
+    font-family: 'tientien';
+    background-color: #182142;
+    padding-top: 50px;
+}

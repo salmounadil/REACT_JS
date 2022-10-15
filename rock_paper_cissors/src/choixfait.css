@@ -1,0 +1,28 @@
+.choixfait{
+    color: white;
+    width: 100vw;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.cissor{
+    height: 275px;
+    width: 275px;
+    border: 35px solid #eca823;
+    background-color: white;
+    border-radius: 50%;
+}
+.paper{
+    height: 275px;
+    width: 275px;
+    border: 35px solid #5470f6;
+    background-color: white;
+    border-radius: 50%;
+}
+.rock{
+    height: 275px;
+    width: 275px;
+    border: 35px solid #df405d;
+    background-color: white;
+    border-radius: 50%;
+}

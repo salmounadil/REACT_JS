@@ -1,0 +1,86 @@
+.usercard{
+    background-color: #1d204b ;
+    width: 250px !important;
+    border-radius: 10px;
+    
+}
+
+.imgjeremy{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.usercard1{
+    background-color: #5746ea;
+    border-radius: 10px;
+    color: white;
+    padding-right: 200px !important;
+    width: 250px;
+   
+   
+}
+
+.usercard2{
+    background-color: #1d204b;
+    border-radius: 15px;
+    width: 250px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.span{
+    border: none;
+    background-color: #1d204b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.span:hover{
+    color: white;
+}
+
+.defaut{
+    color:#6b70a8 ;
+}
+
+.active{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .usercard{
+        width:500px !important;
+    }
+    .usercard1{
+        width:500px !important;
+    }
+    .usercard2{
+        width:500px !important;
+    }
+}
+@media screen and (max-width: 565px) {
+    .usercard{
+        width:360px !important;
+    }
+    .usercard1{
+        width:360px !important;
+    }
+    .usercard2{
+        width:360px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .usercard{
+        width:280px !important;
+    }
+    .usercard1{
+        width:280px !important;
+    }
+    .usercard2{
+        width:280px !important;
+    }
+}

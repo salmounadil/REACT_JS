@@ -1,0 +1,41 @@
+.body{
+    padding-top: 200px ;
+    padding-bottom: 200px ;
+    padding-left: 15% ;
+    padding-right: 15%;
+}
+@font-face {
+    font-family: 'tientien';
+    src: url(./font/Rubik-VariableFont_wght.ttf);
+}
+body{
+    background-color: #0d1323;
+    font-family: 'tientien';
+}
+
+.contenucarte{
+    width: 800px;
+}
+
+.imgsvg{
+    width: fit-content;
+    height:fit-content;
+}
+
+@media screen and (max-width: 1540px) {
+    .body{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (max-width: 1344px) {
+    .body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (max-width: 890px) {
+    .contenucarte{
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+import '@fortawesome/fontawesome-free/css/all.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
+
+	npx create-react-app exercice1 ------------- > creer projet react
+	
+
+	structure app.js :
+
+		import React, {Component} from "react";
+
+		class App extends Component{
+  		render(){
+    		return (
+     		 
+		<div>
+       		 Hello World
+      		</div>
+    		)
+  		}
+		}
+
+export default App;
+
+
+		git checkout -b nombranche ------>  créer nouvelle branche et switcher dessus
+
+
+		font awesome et bootstrap index.js
+
+ npm i @fortawesome/fontawesome-free
+
+
+		import React from 'react';
+		import ReactDOM from 'react-dom';
+		import App from './App';
+		import '@fortawesome/fontawesome-free/css/all.css'
+		import 'bootstrap/dist/css/bootstrap.css'
+		import 'bootstrap/dist/js/bootstrap.js'

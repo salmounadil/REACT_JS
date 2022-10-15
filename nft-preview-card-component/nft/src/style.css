@@ -1,0 +1,114 @@
+body{
+    background-color: #0d1a2d;
+    
+}
+
+article{
+    height:100vh;
+    background-color:#0d1a2d ;
+}
+
+.carte{
+    background-color: #15273f;
+    padding: 20px;
+    border-radius: 15px;
+    width: 340px;
+    padding-bottom: 10px;
+}
+h4{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p{
+    color: #889dba;
+}
+span{
+    color: white;
+}
+.img{
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.img2{
+    color: white;
+    width: 10px;
+    height: 15px;
+}
+
+.span1{
+    color: #06fffc;
+    font-weight: 700;
+}
+.span2{
+    color: #6c80a2;
+    
+}
+
+.bodycarte{
+    border-bottom: 2px solid #21334b;
+    padding-bottom: 20px;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.creation{
+    color: #7e94b5;
+}
+
+.bg{
+    background-image: url('../public/images/image-equilibrium.jpg');
+    width: 300px;
+    height: 300px;
+    border-radius: 10px ;
+    background-size: contain;
+    cursor: pointer;
+    
+}
+.view{
+    display: none !important;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px ;
+}
+
+.bg:hover .view{
+    display: flex !important;
+    /* opacity: 50%; */
+    background-color: #18f4ed7e;
+}
+
+
+.oeil{
+    color: white !important;
+    opacity: initial !important;
+}
+.bleu:hover{
+    color: #06fffc;
+}
+.bleu{
+    cursor: pointer;
+}
+
+@media screen and (max-width : 400px) {
+    .view{
+        width: 260px;
+        height: 260px;
+    }
+    
+    .bg{
+        width: 260px;
+        height: 260px;
+    }
+    
+    .carte{
+        width: 300px;
+    }
+    
+}
